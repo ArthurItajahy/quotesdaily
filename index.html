@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Quotes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Quotes</h1>
+        <div class="quote">
+            <p id="quote"></p>
+            <p id="author"></p>
+        </div>
+        <button onclick="generateQuote()">Generate Another Quote</button>
+        <div class="share-buttons">
+            <button onclick="shareQuote('twitter')">Share on Twitter</button>
+            <button onclick="shareQuote('facebook')">Share on Facebook</button>
+        </div>
+        <div class="ad">
+            <p>Advertisement:</p>
+            <p>Discover the power of self-help books, personal development courses, and meditation apps.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
